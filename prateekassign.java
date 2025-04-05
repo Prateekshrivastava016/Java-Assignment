@@ -1,3 +1,4 @@
+Input:
 public class Person {
     private String name;
     private int age;
@@ -51,3 +52,13 @@ public class Person {
         person.displayInfo();
     }
 }
+
+Output:
+Name: Prateek
+Age: 28
+Country: India
+
+Updated Info:
+Name: Amit
+Age: 30
+Country: USA
