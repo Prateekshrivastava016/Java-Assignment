@@ -1,9 +1,9 @@
-public class Person {
+public class prateekassign {
     private String name;
     private int age;
     private String country;
 
-    public Person(String name, int age, String country) {
+    public prateekassign(String name, int age, String country) {
         this.name = name;
         this.age = age;
         this.country = country;
@@ -39,7 +39,7 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person person = new Person("Prateek", 28, "India");
+        prateekassign person = new prateekassign("Prateek", 28, "India");
 
         person.displayInfo();
 
@@ -51,3 +51,14 @@ public class Person {
         person.displayInfo();
     }
 }
+
+
+Output: 
+Name: Prateek
+Age: 28
+Country: India
+
+Updated Info:
+Name: Amit
+Age: 30
+Country: USA
