@@ -1,0 +1,29 @@
+import java.util.HashMap;
+
+public class HashMapSearchExample {
+    public static void main(String[] args) {
+        // Create a HashMap
+        HashMap<Integer, String> map = new HashMap<>();
+
+        // Add elements to the HashMap
+        map.put(101, "Apple");
+        map.put(102, "Banana");
+        map.put(103, "Cherry");
+        map.put(104, "Date");
+
+        // Key to search for
+        int keyToSearch = 102;
+
+        // Check if the key exists
+        if (map.containsKey(keyToSearch)) {
+            // Get the value associated with the key
+            String value = map.get(keyToSearch);
+            System.out.println("Key " + keyToSearch + " found with value: " + value);
+        } else {
+            System.out.println("Key " + keyToSearch + " not found in the HashMap.");
+        }
+    }
+}
+
+Output :
+Key 102 found with value: Banana
